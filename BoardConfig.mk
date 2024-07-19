@@ -7,7 +7,7 @@
 DEVICE_PATH := device/asus/ASUS_AI2205
 
 # SDClang Config
-ifneq ($(HOST_OS),darwin)
+ifneq ($(HOST_OS),linux)
 SDCLANG := true 
 SDCLANG_PATH := prebuilts/clang/host/linux-x86/sdclang-8/bin
 SDCLANG_PATH_2 := prebuilts/clang/host/linux-x86/sdclang-8/bin
