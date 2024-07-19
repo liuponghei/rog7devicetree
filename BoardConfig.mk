@@ -11,7 +11,7 @@ ifneq ($(HOST_OS),darwin)
 SDCLANG := true 
 SDCLANG_PATH := prebuilts/clang/host/linux-x86/sdclang-8/bin
 SDCLANG_PATH_2 := prebuilts/clang/host/linux-x86/sdclang-8/bin
-SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+SDCLANG_LTO_DEFS := device/asus/ASUS_AI2205/sdllvm-lto-defs.mk
 endif
 
 # A/B
