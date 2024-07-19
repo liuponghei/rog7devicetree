@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ASUS_AI2205.mk
+    $(LOCAL_DIR)/ASUS_AI2205.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ASUS_AI2205-user \
-    lineage_ASUS_AI2205-userdebug \
-    lineage_ASUS_AI2205-eng
+    ASUS_AI2205-user \
+    ASUS_AI2205-userdebug \
+   ASUS_AI2205-eng
